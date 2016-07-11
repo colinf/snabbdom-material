@@ -18,7 +18,8 @@ export default function SidenavItem ({
     selected: false,
     showIcon,
     style: {
-      item: Object.assign({}, styles.item, selected ? styles.itemSelected : {})
+      item: Object.assign({}, styles.item, selected ? styles.itemSelected : {}),
+      itemText: Object.assign({}, styles.itemText)
     }
   }, children)
 }

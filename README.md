@@ -1,3 +1,7 @@
+Changes in this fork
+------------
+* Allow override of text styles in Sidenav item
+
 Snabbdom Material
 =================
 
